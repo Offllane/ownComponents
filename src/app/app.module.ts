@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ChartComponent } from './shared/chart/chart.component';
+import { ResponsiveDesignCardComponent } from './shared/responsive-design-card/responsive-design-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ChartComponent
+    ChartComponent,
+    ResponsiveDesignCardComponent
   ],
   imports: [
     BrowserModule
