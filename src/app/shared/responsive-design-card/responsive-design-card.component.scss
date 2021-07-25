@@ -1,3 +1,5 @@
+@import "src/stylings/variabels";
+
 .box {
   position: relative;
   display: flex;
@@ -91,9 +93,9 @@
   bottom: -2px;
   background-color: #fff;
   z-index: -1;
-  filter: blur(40px);
+  filter: blur(10px);
 }
 
 .box:before, .box:after {
-  background: linear-gradient(235deg, #772aff, #010615, #2196F3);
+  background: linear-gradient(235deg, $main, $main2, $main3);
 }

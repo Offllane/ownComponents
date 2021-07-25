@@ -1,0 +1,35 @@
+@import "src/stylings/variabels";
+
+.content {
+  position: relative;
+  font-size: 6em;
+  min-width: 30vw;
+}
+
+.content div {
+  position: absolute;
+  width: 100%;
+  word-wrap: normal;
+  white-space: nowrap;
+}
+
+.content div:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px $text-color;
+}
+
+.content div:nth-child(2) {
+  color: $text-color;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%, 100% {
+    clip-path: polygon(0% 50%, 12% 51%, 25% 53%, 34% 56%, 45% 60%, 55% 62%,
+    66% 63%, 76% 61%, 84% 58%, 89% 55%, 95% 51%, 100% 49%, 100% 100%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(0 60%, 11% 57%, 21% 54%, 33% 51%, 43% 48%, 52% 47%,
+      63% 47%, 73% 47%, 81% 48%, 87% 51%, 94% 55%, 100% 59%, 100% 100%, 0 100%);
+  }
+}
