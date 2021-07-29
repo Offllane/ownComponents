@@ -1,22 +1,24 @@
 <!--<app-chart></app-chart>-->
-
-<app-responsive-design-card
-  [cardContent]="{
+<div>
+  <app-responsive-design-card
+    [cardContent]="{
   name: 'Egor Tsedrik',
   position: 'Front-end Developer',
   imgSrc: '../../../assets/img/faceImg.png'
    }">
-</app-responsive-design-card>
+  </app-responsive-design-card>
 
-<app-responsive-design-card
-  [cardContent]="{
+  <app-responsive-design-card
+    [cardContent]="{
   name: 'Offllane',
   position: 'student of BSTU',
   imgSrc: 'https://sun9-51.userapi.com/impf/c852320/v852320930/da22b/vEefRs10C-U.jpg?size=1080x1080&quality=96&sign=eaae268edf34b6ec79708fb5323fbf40&type=album'
    }">
-</app-responsive-design-card>
+  </app-responsive-design-card>
+</div>
 
-<br>
 
-<app-water-wave-text text="Offllane"></app-water-wave-text>
-<app-water-wave-text text="Cool text"></app-water-wave-text>
+<div>
+  <app-water-wave-text text="Offllane"></app-water-wave-text>
+  <app-water-wave-text text="Cool text" [reverse]="true"></app-water-wave-text>
+</div>

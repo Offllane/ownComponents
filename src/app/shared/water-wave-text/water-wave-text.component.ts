@@ -7,6 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class WaterWaveTextComponent implements OnInit {
   @Input() text: string;
+  @Input() reverse = false;
 
   constructor() { }
 

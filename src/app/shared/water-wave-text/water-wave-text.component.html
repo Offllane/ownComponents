@@ -1,6 +1,11 @@
 <div class="content">
   <div>{{text}}</div>
-  <div>{{text}}</div>
+  <div [ngClass]="{
+  animation: !reverse,
+  'reverse-animation': reverse
+  }">
+    {{text}}
+  </div>
 </div>
 
 
