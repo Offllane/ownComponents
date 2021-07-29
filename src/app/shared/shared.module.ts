@@ -19,7 +19,8 @@ import { VerticalOpeningTooltipComponent } from './tooltips/vertical-opening-too
   exports: [
     ChartComponent,
     ResponsiveDesignCardComponent,
-    WaterWaveTextComponent
+    WaterWaveTextComponent,
+    VerticalOpeningTooltipComponent
   ]
 })
 export class SharedModule { }

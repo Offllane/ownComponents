@@ -2,6 +2,7 @@
 
 .content {
   position: relative;
+  display: block;
   font-size: 6em;
   min-width: 30vw;
 
@@ -18,11 +19,13 @@
   }
 
   .animation {
+    position: relative;
     color: $text-color;
     animation: animate 4s ease-in-out infinite;
   }
 
   .reverse-animation {
+    position: relative;
     color: $text-color;
     animation:  animate-reverse 4s ease-in-out infinite;
   }

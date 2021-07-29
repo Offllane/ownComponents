@@ -1,5 +1,6 @@
 .content {
   position: relative;
+  display: block;
   font-size: 6em;
   min-width: 30vw;
 }
@@ -14,10 +15,12 @@
   -webkit-text-stroke: 2px #E9D1AE;
 }
 .content .animation {
+  position: relative;
   color: #E9D1AE;
   animation: animate 4s ease-in-out infinite;
 }
 .content .reverse-animation {
+  position: relative;
   color: #E9D1AE;
   animation: animate-reverse 4s ease-in-out infinite;
 }
