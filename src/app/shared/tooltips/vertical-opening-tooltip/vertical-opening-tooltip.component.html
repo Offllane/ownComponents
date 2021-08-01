@@ -1,1 +1,41 @@
-<p>vertical-opening-tooltip works!</p>
+<div class="container">
+  <div class="navigation" [ngClass]="{active: toggle}"
+    [style]=" {height: 60 * menuItems.length + 'px'}">
+    <ul>
+      <li *ngFor="let item of menuItems">
+        <a href="{{item.href}}">
+          <span class="icon"><i [class]="item.icon" aria-hidden="true"></i></span>
+          <span class="title">{{item.title}}</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa fa-font" aria-hidden="true"></i></span>
+          <span class="title">Text effects</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+          <span class="title">Coming soon</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+          <span class="title">Coming soon</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <span class="icon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+          <span class="title">Coming soon</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="toggle"
+       [ngClass]="{ active: toggle }"
+       (click)="toggleFunction()">
+  </div>
+</div>
