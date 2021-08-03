@@ -8,20 +8,19 @@
   justify-content: center;
   align-items: center;
   margin: 40px;
-  background: #060c21;
+  background: $background-dark;
   transition: .5s;
 
   .image-container {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     padding: 10px;
-    overflow: hidden;
 
     img {
-      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center bottom;
       opacity: .1;
       transition: .5s;
     }
