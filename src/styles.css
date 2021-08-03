@@ -14,7 +14,7 @@ body {
 }
 
 app-root {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -23,7 +23,7 @@ app-root {
 
 app-root > div {
   display: flex;
-  width: 100%;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=styles.css.map */
