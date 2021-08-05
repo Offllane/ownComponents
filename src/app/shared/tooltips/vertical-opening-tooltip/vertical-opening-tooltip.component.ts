@@ -37,26 +37,6 @@ export class VerticalOpeningTooltipComponent implements OnInit {
       title: 'Coming soon',
       icon: 'fa fa-clock-o',
       href: '#'
-    },
-    {
-      title: 'Coming soon',
-      icon: 'fa fa-clock-o',
-      href: '#'
-    },
-    {
-      title: 'Coming soon',
-      icon: 'fa fa-clock-o',
-      href: '#'
-    },
-    {
-      title: 'Coming soon',
-      icon: 'fa fa-clock-o',
-      href: '#'
-    },
-    {
-      title: 'Coming soon',
-      icon: 'fa fa-clock-o',
-      href: '#'
     }
   ];
 

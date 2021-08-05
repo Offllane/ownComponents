@@ -4,6 +4,7 @@ import { ChartComponent} from './chart/chart.component';
 import { ResponsiveDesignCardComponent} from './cards/responsive-design-card/responsive-design-card.component';
 import { WaterWaveTextComponent } from './text-effects/water-wave-text/water-wave-text.component';
 import { VerticalOpeningTooltipComponent } from './tooltips/vertical-opening-tooltip/vertical-opening-tooltip.component';
+import { CardWithPlaceholderComponent } from './cards/card-with-placeholder/card-with-placeholder.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { VerticalOpeningTooltipComponent } from './tooltips/vertical-opening-too
     ChartComponent,
     ResponsiveDesignCardComponent,
     WaterWaveTextComponent,
-    VerticalOpeningTooltipComponent
+    VerticalOpeningTooltipComponent,
+    CardWithPlaceholderComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { VerticalOpeningTooltipComponent } from './tooltips/vertical-opening-too
     ChartComponent,
     ResponsiveDesignCardComponent,
     WaterWaveTextComponent,
-    VerticalOpeningTooltipComponent
+    VerticalOpeningTooltipComponent,
+    CardWithPlaceholderComponent
   ]
 })
 export class SharedModule { }
