@@ -6,6 +6,7 @@ import { WaterWaveTextComponent } from './text-effects/water-wave-text/water-wav
 import { VerticalOpeningTooltipComponent } from './tooltips/vertical-opening-tooltip/vertical-opening-tooltip.component';
 import { CardWithPlaceholderComponent } from './cards/card-with-placeholder/card-with-placeholder.component';
 import { IsometricIconComponent } from './icons/isometric-icon/isometric-icon.component';
+import { IsometricBoxComponent } from './isometric/isometric-box/isometric-box.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { IsometricIconComponent } from './icons/isometric-icon/isometric-icon.co
     WaterWaveTextComponent,
     VerticalOpeningTooltipComponent,
     CardWithPlaceholderComponent,
-    IsometricIconComponent
+    IsometricIconComponent,
+    IsometricBoxComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +28,8 @@ import { IsometricIconComponent } from './icons/isometric-icon/isometric-icon.co
     WaterWaveTextComponent,
     VerticalOpeningTooltipComponent,
     CardWithPlaceholderComponent,
-    IsometricIconComponent
+    IsometricIconComponent,
+    IsometricBoxComponent
   ]
 })
 export class SharedModule { }

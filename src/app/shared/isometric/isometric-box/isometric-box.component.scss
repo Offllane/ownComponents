@@ -1,0 +1,58 @@
+@import "../../../../stylings/variabels";
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  padding: 60px;
+  transform: perspective(500px) rotate(-40deg) skew(25deg);
+  box-shadow: -90px 75px 20px rgba(0, 0, 0, 0.3);
+  background-color: $grey-dark;
+  background-image: url("../../../../assets/img/buns-pictures/crus.png");
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 1;
+  transition: .5s;
+}
+
+.box:hover {
+  transform: perspective(500px) rotate(-40deg) skew(25deg) translate(50px, -50px);
+  box-shadow: -150px 115px 100px rgba(0, 0, 0, 0.3);
+}
+
+// front view
+.box:before {
+  content: '';
+  width: 90px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  transform: skewY(-40deg) translate(-90px, -38px);
+  background-color: $grey-dark;
+  background-image: url('../../../../assets/img/lion_gold(100x100).png');
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.box:after {
+  content: 'Luxurious croisasnt';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $text-color;
+  position: absolute;
+  width: 100%;
+  height: 76px;
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid grey;
+  border-top: 1px solid grey;
+  transform: skewX(-50deg) translate(45px, 76px);
+  background-color: $grey-dark;
+  background-size: 90px;
+}
