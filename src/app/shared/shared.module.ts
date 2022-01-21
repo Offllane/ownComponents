@@ -7,6 +7,7 @@ import { VerticalOpeningTooltipComponent } from './tooltips/vertical-opening-too
 import { CardWithPlaceholderComponent } from './cards/card-with-placeholder/card-with-placeholder.component';
 import { IsometricIconComponent } from './icons/isometric-icon/isometric-icon.component';
 import { IsometricBoxComponent } from './isometric/isometric-box/isometric-box.component';
+import { KeyboardCheckboxComponent } from './controls/keyboard-checkbox/keyboard-checkbox.component';
 
 
 @NgModule({
@@ -17,19 +18,21 @@ import { IsometricBoxComponent } from './isometric/isometric-box/isometric-box.c
     VerticalOpeningTooltipComponent,
     CardWithPlaceholderComponent,
     IsometricIconComponent,
-    IsometricBoxComponent
+    IsometricBoxComponent,
+    KeyboardCheckboxComponent
   ],
   imports: [
     CommonModule,
   ],
-  exports: [
-    ChartComponent,
-    ResponsiveDesignCardComponent,
-    WaterWaveTextComponent,
-    VerticalOpeningTooltipComponent,
-    CardWithPlaceholderComponent,
-    IsometricIconComponent,
-    IsometricBoxComponent
-  ]
+    exports: [
+        ChartComponent,
+        ResponsiveDesignCardComponent,
+        WaterWaveTextComponent,
+        VerticalOpeningTooltipComponent,
+        CardWithPlaceholderComponent,
+        IsometricIconComponent,
+        IsometricBoxComponent,
+        KeyboardCheckboxComponent
+    ]
 })
 export class SharedModule { }
